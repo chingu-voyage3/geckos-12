@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Earnings from './Earnings/Earnings.js'
+import Earnings from './Earnings/Earnings.js';
+import Navigation from './Navigation/Navigation';
 
 const header = () => {
   return (
