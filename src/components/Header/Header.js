@@ -1,9 +1,14 @@
-// The Header component
-
 import React from 'react';
 
-const header = () => (
-      <h1>Wellcome to Story Of Banana App</h1>
-);
+import Earnings from './Earnings/Earnings.js'
+
+const header = () => {
+  return (
+    <React.Fragment>
+      <Earnings />
+      <Navigation />
+    </React.Fragment>      
+  );    
+};
 
 export default header;
